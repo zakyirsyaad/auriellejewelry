@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Produk A",
+        "code": "PRA123",
+        "price": 50000,
+        "picture": "https://example.com/images/produk-a.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Produk B",
+        "code": "PRB456",
+        "price": 75000,
+        "picture": "https://example.com/images/produk-b.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Produk C",
+        "code": "PRC789",
+        "price": 100000,
+        "picture": "https://example.com/images/produk-c.jpg"
+    }
+]
