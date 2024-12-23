@@ -19,7 +19,7 @@ export default async function Reviews() {
         <section>
             <div className="m-5 xl:m-10 2xl:mx-20 space-y-5">
                 <h1 className="text-2xl xl:text-4xl font-bold text-center">What our customers say</h1>
-                <div className="grid grid-cols-2 xl:grid-cols-4 2xl:grid-cols-5 gap-5 xl:gap-10">
+                <div className="grid xl:grid-cols-4 2xl:grid-cols-5 gap-5 xl:gap-10">
                     {reviews.map((review) => (
                         <div key={review.id} className="grid gap-5 border border-black rounded p-5">
                             <div className="space-y-2">
@@ -34,7 +34,6 @@ export default async function Reviews() {
                                         fill={review.rating >= star ? '#FFD700' : '#E0E0E0'}
                                     />
                                 ))}
-                                <p className="text-sm">{review.rating}</p>
                             </div>
                         </div>
                     ))}
