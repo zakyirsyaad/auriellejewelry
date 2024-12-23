@@ -9,11 +9,18 @@ const inter = Inter({
 export const metadata = {
   title: "Aurielle Jewelry",
   description: "Top 1 best online store titanium jewelry in the world!",
+  keywords: ["Auriell Jewelry", "Aurielle Jewelry", "Online Store Jewelry", "Perhiasan Murah", "Perhiasan Terbaik", "Perhiasan Terbaik Indonesia"],
+  openGraph: {
+    title: "Aurielle Jewelry",
+    description: "Top 1 best online store titanium jewelry in the world!",
+    images: "https://kowtddhwakkqmlntjbws.supabase.co/storage/v1/object/public/My/favicon.png", // Gantilah dengan URL gambar yang sesuai
+    url: "https://auriellejewelry.store" // Gantilah dengan URL halaman Anda
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${inter.variable} antialiased`}
       >
